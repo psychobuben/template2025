@@ -1,12 +1,15 @@
 img {
     width: 100%;
     border-radius: 15px;
+    
   
     
 }
 
 .info-text {
     background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    
 }
 
 .gallery-track {
@@ -23,11 +26,13 @@ img {
   .gallery-item {
     flex: 0 0 auto;
     scroll-snap-align: start;
-    width: 90%;
+    width: 80%;
     max-width: 800px;
 
    
   }
   h1,h2 {
     font-size: 14px;
+   padding: 10px;
+   
   }
