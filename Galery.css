@@ -1,6 +1,7 @@
 img {
     width: 100%;
     border-radius: 15px;
+  
     
 }
 
@@ -13,7 +14,8 @@ img {
     overflow-x: auto;
     gap: 2rem;
     scroll-snap-type: x mandatory;
-    padding-bottom: 2rem;
+   
+  
     
     
   }
@@ -23,5 +25,9 @@ img {
     scroll-snap-align: start;
     width: 90%;
     max-width: 800px;
+
    
+  }
+  h1,h2 {
+    font-size: 14px;
   }
